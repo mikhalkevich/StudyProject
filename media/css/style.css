@@ -1,0 +1,47 @@
+* {
+	margin:0;
+	padding:0;
+}
+#header{
+	background:url('../img/fon.jpg');
+	height:200px;
+}
+#logotext{
+	float:left;
+	padding:10px;
+	color:black;
+	text-shadow:1px 1px 1px black;
+	font-weight:bold;
+}
+#logo{
+	float:right;
+}
+#menu {
+	display:flex;
+}
+#menu a {
+	flex:1;
+	padding:10px 0;
+	text-align:center;
+	text-decoration:none;
+	color:gold;
+	background:olive;
+	border-right:solid 1px gold;
+}
+#menu a:hover{
+	background:white;
+	color:green;
+}
+#auth {
+	float:right;
+	padding:1px 20px 0 0;
+}
+#content {
+	padding: 40px 10px;
+}
+#footer {
+	background:#ccc;
+	color:white;
+	padding:60px 0;
+	text-align:center;
+}
